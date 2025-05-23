@@ -21,3 +21,5 @@ function App() {
     </WalletKitProvider>
   );
 }
+
+export default App;

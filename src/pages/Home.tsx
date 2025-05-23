@@ -16,7 +16,7 @@ const Home = () => {
         {!isConnected ? (
           <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-4 mb-8">
             <p className="text-yellow-700">
-              Please connect your Sui wallet to start swapping tickets
+              Connect your Sui wallet to start swapping tickets
             </p>
           </div>
         ) : (
