@@ -12,9 +12,16 @@ const SwapTickets = () => {
     <div className="max-w-7xl mx-auto px-4 py-12">
       <h2 className="text-3xl font-bold text-gray-900 mb-8">Swap Tickets</h2>
       <div className="bg-white rounded-lg shadow p-6">
-        <p className="text-gray-600">
-          Swap ticket implementation will go here...
-        </p>
+        <div className="space-y-4">
+          <p className="text-gray-600">
+            Select tickets you want to swap with other users. Make sure to review all details before confirming the swap.
+          </p>
+          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+            <p className="text-blue-700">
+              Your wallet is connected. You can now start swapping tickets.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

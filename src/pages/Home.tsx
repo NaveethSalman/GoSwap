@@ -20,19 +20,26 @@ const Home = () => {
             </p>
           </div>
         ) : (
-          <div className="flex justify-center space-x-4">
-            <Link
-              to="/upload"
-              className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600"
-            >
-              Upload Ticket
-            </Link>
-            <Link
-              to="/swap"
-              className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600"
-            >
-              Swap Tickets
-            </Link>
+          <div className="space-y-8">
+            <div className="bg-green-50 border border-green-200 rounded-lg p-4">
+              <p className="text-green-700">
+                Wallet connected! You can now access all features.
+              </p>
+            </div>
+            <div className="flex justify-center space-x-4">
+              <Link
+                to="/upload"
+                className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600"
+              >
+                Upload Ticket
+              </Link>
+              <Link
+                to="/swap"
+                className="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600"
+              >
+                Swap Tickets
+              </Link>
+            </div>
           </div>
         )}
       </div>
